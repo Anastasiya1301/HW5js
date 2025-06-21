@@ -103,4 +103,6 @@ switch (operator) {
         result = num1 * num2;
         alert(`Результат:${result}`);
         break;
+    default:
+        alert("Десь помилка..");
 }
