@@ -38,7 +38,7 @@ switch (weekDays) {
 
 //3
 
-const numberMonth = prompt;
+const numberMonth = prompt("Введіть любий місяць року:");
 
 switch (numberMonth) {
     case "Грудень":
@@ -104,5 +104,5 @@ switch (operator) {
         alert(`Результат:${result}`);
         break;
     default:
-        alert("Десь помилка..");
+        alert("У випадку ділення на нуль — виведіть попередження.");
 }
