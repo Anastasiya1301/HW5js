@@ -96,6 +96,9 @@ switch (operator) {
         alert(`Результат:${result}`);
         break;
     case "/":
+        if (num2 === 0) {
+            alert("Ділити на 0 не можна!");
+        }
         result = num1 / num2;
         alert(`Результат:${result}`);
         break;
@@ -104,5 +107,5 @@ switch (operator) {
         alert(`Результат:${result}`);
         break;
     default:
-        alert("У випадку ділення на нуль — виведіть попередження.");
+        alert("Виберіть 1 з 4 знаків оператора: +,-,*,/");
 }
